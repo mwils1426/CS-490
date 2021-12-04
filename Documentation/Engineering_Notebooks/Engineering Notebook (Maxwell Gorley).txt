@@ -1,0 +1,66 @@
+Maxwell Gorley - Engineering Notebook
+Group 6 - Boeing
+
+[Sprint 1]
+
+9/13/2021
+*First meeting with Boeing
+*The goal is to emulate aircraft systems
+*Each campus is assigned red/blue team
+
+9/15/2021
+*Follow-up meeting with Brian Jaury from Boeing
+*Using QEMU for emulation
+	- I am more familiar with VirtualBox and VMware, so this will be a challenge
+
+9/20/2021
+*Asked if we could use VirtualBox, but Brian preferred QEMU
+
+9/27/2021
+*Because we are conducting penetration testing, it is important that the VMs are in an isolated network
+
+9/28/2021
+*Finished documentation for Sprint 1
+*Brian said that we should not use 2-factor authentication for SSH
+*Was going to meet with Anthony in-person to help set up the network, but I had to quarantine
+
+10/5/2021
+*Presented Sprint 1
+
+[Sprint 2]
+
+10/11/2021
+*We are using Parrot OS for penetration testing
+
+10/19/2021
+*Added non-functional/safety test cases
+*Installed Parrot OS in a VM
+*Experimented with several network types (NAT, bridged, host-only, etc.) to see how they work
+
+10/26/2021
+*Finished SRS and SDD for Sprint 2
+
+10/31/2021
+*Met online with Anthony and Max (Wilson) to test packet sniffer
+
+11/2/2021
+*Presented Sprint 2
+
+[Sprint 3]
+
+11/3/2021
+*Joint meeting with the Prescott campus
+	-Daytona Beach has made more progress than Prescott
+
+11/23/2021
+*Learned how to configure a TFTP server
+
+11/29/2021
+*Learned more about setting up a host-only network for QEMU
+	-Very important to keep VMs isolated from the ERAU network
+
+11/30/2021
+*Finished SRS and SDD for Sprint 3
+
+12/1/2021
+*Project presentation is scheduled for December 6
