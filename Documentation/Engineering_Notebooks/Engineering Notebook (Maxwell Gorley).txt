@@ -64,3 +64,35 @@ Group 6 - Boeing
 
 12/1/2021
 *Project presentation is scheduled for December 6
+
+12/5/2021
+*QEMU network works!
+	- 2 machines can communicate
+
+12/6/2021
+*Presented Sprint 3
+
+======================================================================================================
+
+[Sprint 4]
+
+1/24/2022
+*First Boeing meeting of the semester
+*More likely to keep everything virtual rather than using physical aviation-specific network switches
+
+1/31/2022
+*Weekly meetings with Prescott start on Wednesday
+
+2/2/2022
+*First Prescott meeting
+*Future Prescott meetings will be held monthly instead of weekly
+*CTF will be held in 3 stages
+	1. No encryption
+	2. Simple encryption
+	3. Advanced encryption
+
+2/4/2022
+*Finished SRS and SDD for Sprint 4
+
+2/8/2022
+*Presented Sprint 4
