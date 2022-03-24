@@ -96,3 +96,33 @@ Group 6 - Boeing
 
 2/8/2022
 *Presented Sprint 4
+
+[Sprint 5]
+
+2/23/2022
+*Log server is working under QEMU!
+*Currently one VM sending its own syslog data to Graylog
+*Graylog VM uses 4 GB of RAM, but my laptop only has 8 GB of RAM, so running additional VMs could be challenging
+
+2/27/2022
+*Worked on test plan for Sprint 5
+
+3/3/2022
+*Using VirtualBox instead of QEMU for the demo
+*3 VMs will be used
+	- Graylog
+	- Ubuntu Server, which sends logs to Graylog
+	- Parrot OS, which performs the DoS attack
+*Accidentally destroyed data on Ubuntu Server VM while trying to resize the partition
+	- Disk was partitioned using LVM and I mistakenly deleted the LVM signature while resizing the root partition
+	- Downloaded new Ubuntu Server VM from OSBoxes
+
+3/9/2022
+*Finalized VM setup and conducted DoS attack on the Graylog server
+	- Graylog web interface said the site was unavailable during the DoS attack
+*Reduced Graylog RAM from 4 GB to 2.5 GB
+*Reduced Ubuntu Server RAM from 1 GB to 0.5 GB
+*Reduced Parrot OS RAM from 2 GB to 1.5 GB
+
+3/10/2022
+*Presented Sprint 5
