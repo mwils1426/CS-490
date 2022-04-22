@@ -126,3 +126,37 @@ Group 6 - Boeing
 
 3/10/2022
 *Presented Sprint 5
+
+[Sprint 6]
+
+3/30/2022
+*IT support ticket went through, so funding should be available soon
+
+4/11/2022
+*Legal department approved funding
+
+4/17/2022
+*Cloud server was attacked and flagged for a Terms of Service violation, so we can no longer use it
+
+4/18/2022
+*Participated in Prescott CTF
+*CTF was very well made
+	- Prescott used CTFd as the CTF platform
+*Some challenges involved aviation equipment, but we were unable to complete those
+
+4/20/2022
+*Network switch was purchased so we can network our computers together
+*I learned that switches do not have built-in routing functionality
+	- Either everyone would have to manually set static IP addresses or a router would have to be connected
+	- I found a pfSense router VM on my laptop and it worked
+
+4/21/2022
+*Set up VirtualBox's built-in remote desktop (RDP) server and tunneled it over Ngrok so Prescott can access it
+	- This lets the VM remain isolated from the Internet
+		- Prescott used TeamViewer for remote access during the CTF, so their laptop had to be connected to the Internet
+	- Default Windows RDP client could not connect
+	- FreeRDP disconnected frequently
+	- mRemoteNG worked, so Prescott can use that to connect to the VM
+
+*Final in-class presentation scheduled for 4/26
+*Final Boeing presentation scheduled for 4/29
